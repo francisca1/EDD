@@ -1,0 +1,2 @@
+Hola!, hay un sleep antes de cerrar la ventana, que si lo saco, no se cierra la ventana y el progrma no termina, por lo que
+cuando modifiquen el código para escribir los resultados en un txt, habria que borrar ese sleep, gracias :3.

@@ -1,0 +1,10 @@
+int is_white(Color color);
+int is_corner(int row, int col, int width, int height);
+int is_up(int row, int col, int width, int height);
+int is_down(int row, int col, int width, int height);
+int is_left(int row, int col, int width, int height);
+int is_right(int row, int col, int width, int height);
+void new_color(Color *color,Image *img, int row, int col, int lugar);
+void for_borde(Image *img, int *red, int *green, int *blue, int col, int row, int lugar);
+void for_normal(Image *img, int *red, int *green, int *blue, int col, int row);
+int cmpfunc(const void *a, const void *b);
